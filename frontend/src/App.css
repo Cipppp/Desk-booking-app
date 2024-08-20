@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styles for PaginatedView Component */
+.paginated-view {
+  padding: 20px;
+}
+
+.paginated-view table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.paginated-view th,
+.paginated-view td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.paginated-view th {
+  background-color: #f2f2f2;
+}
+
+.paginated-view .pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.paginated-view button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.paginated-view button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    padding: 20px;
+    margin-top: 60px; /* Adjust based on navbar height */
+    margin-bottom: 40px; /* Adjust based on footer height */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+button {
+    cursor: pointer;
+}

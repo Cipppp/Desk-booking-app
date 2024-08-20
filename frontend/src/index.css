@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply rounded-3xl p-2 mr-10 uppercase text-xl font-josefin font-bold cursor-pointer tracking-wider transition ease-out duration-300;
+}
+
+.btn-auth {
+    @apply rounded-3xl p-2 mt-4 text-xl font-josefin font-bold tracking-wider transition ease-out duration-300 border-jet border-solid border-4;
+}
+
+.btn-auth-login {
+    @apply rounded-3xl p-2 mt-4 font-josefin font-bold tracking-wider transition ease-out duration-300 border-jet border-solid border-4;
+}
+
+.btn-auth-with {
+    @apply rounded-lg pr-2 pl-2 mt-4 font-josefin font-bold tracking-wider transition ease-out duration-300 border-jet border-solid border-4 w-auto flex items-center;
+}
+
+.btn-add {
+    @apply rounded-full p-2 text-xl m-10 transition ease-out duration-300 border-jet border-solid border-4;
+}
+
+.notificationWrapper {
+    @apply flex flex-row items-center justify-between w-96 bg-[#0abc0d] px-4 py-6 text-white shadow-2xl hover:shadow-none transform-gpu translate-y-4 hover:translate-y-1 rounded-xl relative transition-all duration-500 ease-in-out;
+}
+
+.iconWrapper {
+    @apply text-2xl;
+}
+
+.contentWrapper {
+    @apply flex flex-col items-start justify-center ml-4 cursor-default;
+}
+
+.contentWrapper h1 {
+    @apply text-xl text-white font-semibold leading-none tracking-wider;
+}
+
+.contentWrapper p {
+    @apply text-base text-white mt-2 leading-relaxed tracking-wider;
+}
+
+.closeIcon {
+    @apply absolute top-2 right-2 cursor-pointer text-xl;
+}

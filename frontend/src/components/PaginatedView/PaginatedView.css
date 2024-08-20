@@ -1,0 +1,50 @@
+.paginated-view {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paginated-view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.paginated-view th,
+.paginated-view td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.paginated-view th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.paginated-view .pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.paginated-view button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.paginated-view button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.paginated-view button:hover:not(:disabled) {
+    background-color: #555;
+}
